@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="layout_wight">2</dimen>
+    <dimen name="padding">4dp</dimen>
+    <dimen name="toppadding">8dp</dimen>
+    <dimen name="zero_wight">0</dimen>
+    <dimen name="one_wight">1</dimen>
+    <dimen name="three_wight">3</dimen>
+    <dimen name="largeTextSize">25sp</dimen>
+    <dimen name="smallTextSize">15sp</dimen>
+    <dimen name="leftmargin">36dp</dimen>
+    <dimen name="image_hight">30dp</dimen>
+    <dimen name="arrow">50dp</dimen>
+
+
+</resources>

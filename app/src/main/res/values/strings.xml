@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BookInventory</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Books</string>
+    <string name="editor_activity_title_new_book">Add a Book</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="category_overview">Overview</string>
+    <string name="hint_book_name">Name</string>
+    <string name="hint_book_Price">Price</string>
+    <string name="hint_book_quantity">Quantity</string>
+    <string name="hint_suppler_name">Suppler Name</string>
+    <string name="hint_suppler_phone">Suppler Phone</string>
+    <string name="currency_simple">$</string>
+    <string name="add_book">Add Book</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="dummy_book_name">The Power</string>
+    <string name="dummy_book_price">20</string>
+    <string name="dummy_book_quantity">100</string>
+    <string name="dummy_suppler_name">Naomi Alderman</string>
+    <string name="dummy_suppler_phone">01221214575</string>
+    <string name="table_name">inventory.db</string>
+    <string name="name_missed">Name missed</string>
+    <string name="price_missed">Price missed</string>
+    <string name="quantity_missed">Quantity missed</string>
+    <string name="no_suppler">No suppler Name</string>
+    <string name="no_phone">No suppler Phone</string>
+    <string name="bookid">book Id</string>
+    <string name="error">Error with Saving book</string>
+    <string name="test">Test</string>
+    <string name="book_saved">Book saved</string>
+    <string name="editor_activity_title_new_Book">Add a Book</string>
+    <string name="editor_activity_title_edit_Book">Edit a Book</string>
+    <string name="editor_insert_Book_failed">Error with saving book</string>
+    <string name="editor_update_Book_successful">Book updated</string>
+    <string name="editor_update_Book_failed">Error with updating Book</string>
+
+
+    <string name="Book_saved">Book saved</string>
+
+    <string name="error_saved">error in saving Book</string>
+    <string name="empty_view_title_text">There is no available books</string>
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_Book_successful">Book deleted</string>
+    <string name="editor_delete_Book_failed">Error with deleting Book</string>
+    <string name="delete_dialog_msg">Delete this Book?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="item_sold">Item Sold!</string>
+    <string name="item_not_sold">Item Not Sold!</string>
+    <string name="query">Cannot query unknown URI </string>
+    <string name="quantity_error">Error with updating quantity</string>
+    <string name="quantity_saved">Quantity updated</string>
+    <string name="sale">Sale</string>
+    <string name="data_missing">Data missed</string>
+
+</resources>

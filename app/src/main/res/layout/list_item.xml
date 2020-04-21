@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="@dimen/three_wight"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/gray"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CategoryStyle"
+                    android:text="@string/hint_book_quantity" />
+
+                <TextView
+                    android:id="@+id/Quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CategoryStyle"
+                    android:text="@string/hint_book_Price" />
+
+                <TextView
+                    android:id="@+id/Price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:fontFamily="sans-serif"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/gray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/currency_simple"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/EditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding"
+            android:layout_weight="@dimen/one_wight"
+            android:background="@color/button1"
+            android:focusable="false"
+android:focusableInTouchMode="false"
+            android:text="Edit" />
+
+
+
+        <Button
+            android:id="@+id/saleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding"
+            android:layout_weight="1"
+            android:background="@color/button3"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="@string/sale" />
+    </LinearLayout>
+</LinearLayout>

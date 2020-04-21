@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:id="@+id/container_bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/hint_book_name" />
+
+        <EditText
+            android:id="@+id/edit_books_name"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_book_name"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_bookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/hint_book_Price" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/zero_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/layout_wight"
+            android:paddingLeft="@dimen/padding">
+
+            <EditText
+                android:id="@+id/edit_books_price"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_book_Price"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_weight_units"
+                style="@style/EditorUnitsStyle"
+                android:text="@string/currency_simple" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_bookQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/hint_book_quantity" />
+
+        <EditText
+            android:id="@+id/edit_books_quantity"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_book_quantity"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_supplerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/hint_suppler_name" />
+
+        <EditText
+            android:id="@+id/edit_books_suppler_name"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_suppler_name"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_supplerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/hint_suppler_phone" />
+
+        <EditText
+            android:id="@+id/edit_suppler_phone"
+            style="@style/EditorFieldStyle"
+            android:hint="@string/hint_suppler_phone"
+            android:inputType="phone" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4D4E49</color>
+
+    <!-- Darker variant for the status bar and contextual app bars -->
+    <color name="colorPrimaryDark">#C0403C</color>
+
+    <!-- Accent color for UI controls like checkboxes and text fields -->
+    <color name="colorAccent">#F0514B</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editorColorPrimary">#83308F</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editorColorPrimaryDark">#394450</color>
+    <color name="fibBackground">#222222</color>
+    <color name="gray">#2B3D4D</color>
+    <color name="subtitle">#A2AAB0</color>
+    <color name="button1">#6F0564</color>
+    <color name="button2">#F6FA9C</color>
+    <color name="button3">#8CA93E</color>
+</resources>

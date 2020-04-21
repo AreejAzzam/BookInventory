@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="@dimen/one_wight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_book_name"
+            android:textSize="@dimen/largeTextSize" />
+
+        <TextView
+            android:id="@+id/DelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/leftmargin"
+            android:textSize="@dimen/smallTextSize" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="@dimen/one_wight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_book_Price"
+            android:textSize="@dimen/largeTextSize" />
+
+        <TextView
+            android:id="@+id/DelPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/leftmargin"
+            android:textSize="@dimen/smallTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="@dimen/one_wight"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_book_quantity"
+                android:textSize="@dimen/largeTextSize" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reduceQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding"
+                    android:layout_weight="@dimen/one_wight"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/DelQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/leftmargin"
+                    android:textSize="@dimen/smallTextSize" />
+
+                <Button
+                    android:id="@+id/increaseQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/leftmargin"
+                    android:layout_weight="@dimen/one_wight"
+                    android:text="+" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="@dimen/one_wight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_suppler_name"
+            android:textSize="@dimen/largeTextSize" />
+
+        <TextView
+            android:id="@+id/delSupplerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/leftmargin"
+            android:text="@string/no_phone"
+            android:textSize="@dimen/smallTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:layout_weight="@dimen/one_wight"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_suppler_phone"
+            android:textSize="@dimen/largeTextSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/delphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/leftmargin"
+                android:layout_weight="@dimen/three_wight"
+                android:textSize="@dimen/smallTextSize" />
+
+            <ImageButton
+                android:id="@+id/callImage"
+                android:layout_width="@dimen/image_hight"
+                android:layout_height="@dimen/image_hight"
+                android:layout_marginLeft="@dimen/padding"
+
+                android:layout_weight="@dimen/one_wight"
+                android:src="@mipmap/call"
+                android:text="@string/no_phone" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
